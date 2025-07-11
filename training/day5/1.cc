@@ -17,7 +17,7 @@ int main()
 
         score = min(min(a, b), c) * 2;
 
-        score += max(b - score / 2, 0);
+        score += max(b - score - 1, 0);
         cout << score << endl;
     }
 
